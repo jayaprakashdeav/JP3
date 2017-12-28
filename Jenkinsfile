@@ -6,5 +6,10 @@ pipeline {
         bat 'echo Hello'
       }
     }
+    stage('Restore Nuget') {
+      steps {
+        bat 'C:\\JP\\Nuget\\nuget.exe restore "C:\\Users\\jayaprakash.s\\Documents\\Visual Studio 2017\\Projects\\Hello_World\\Hello_World.sln"'
+      }
+    }
   }
 }
