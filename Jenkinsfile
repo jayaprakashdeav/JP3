@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Build using Ms build') {
       steps {
-        bat 'msbuild.exe "C:\\Users\\jayaprakash.s\\Documents\\Visual Studio 2017\\Projects\\Hello_World\\Hello_World.sln"'
+        bat '${tool \'MSBuild\'} "C:\\Users\\jayaprakash.s\\Documents\\Visual Studio 2017\\Projects\\Hello_World\\Hello_World.sln"'
       }
     }
   }
