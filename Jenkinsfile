@@ -18,7 +18,7 @@ pipeline {
     }
     stage('Print msbuild') {
       steps {
-        bat '%msbuildexe%'
+        bat 'echo %msbuildexe%'
       }
     }
   }
