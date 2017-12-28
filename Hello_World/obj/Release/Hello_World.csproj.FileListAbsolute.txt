@@ -1,0 +1,6 @@
+C:\Users\jayaprakash.s\Documents\Visual Studio 2017\Projects\Hello_World\Hello_World\bin\Release\Hello_World.exe.config
+C:\Users\jayaprakash.s\Documents\Visual Studio 2017\Projects\Hello_World\Hello_World\bin\Release\Hello_World.exe
+C:\Users\jayaprakash.s\Documents\Visual Studio 2017\Projects\Hello_World\Hello_World\bin\Release\Hello_World.pdb
+C:\Users\jayaprakash.s\Documents\Visual Studio 2017\Projects\Hello_World\Hello_World\obj\Release\Hello_World.csprojResolveAssemblyReference.cache
+C:\Users\jayaprakash.s\Documents\Visual Studio 2017\Projects\Hello_World\Hello_World\obj\Release\Hello_World.exe
+C:\Users\jayaprakash.s\Documents\Visual Studio 2017\Projects\Hello_World\Hello_World\obj\Release\Hello_World.pdb
