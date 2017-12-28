@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Build using Ms build') {
       steps {
-        bat '"C:\\Program Files (x86)\\MSBuild\\14.0\\Bin\\msbuild.exe" "C:\\Users\\jayaprakash.s\\Documents\\Visual Studio 2017\\Projects\\Hello_World\\Hello_World.sln"'
+        bat '"C:\\Program Files (x86)\\MSBuild\\14.0\\Bin\\msbuild.exe" "C:\\Users\\jayaprakash.s\\Documents\\Visual Studio 2017\\Projects\\Hello_World\\Hello_World.sln" /p:Platform="Any Cpu" /p:Configuration=Release /t:Clean;build'
       }
     }
   }
