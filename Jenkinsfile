@@ -16,5 +16,10 @@ pipeline {
         bat '"C:\\Program Files (x86)\\MSBuild\\14.0\\Bin\\msbuild.exe" "C:\\Users\\jayaprakash.s\\Documents\\Visual Studio 2017\\Projects\\Hello_World\\jp3\\Hello_World.sln" /p:Platform="Any Cpu" /p:Configuration=Release /t:Clean;build'
       }
     }
+    stage('Script From GIT') {
+      steps {
+        bat 'jp3/Batch_Files/Hello.bat'
+      }
+    }
   }
 }
